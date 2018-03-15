@@ -1,5 +1,5 @@
 <?php
-<h1>Some new code</h1>
+  echo "<h1>Some new code</h1>";
  $conn = mysqli_connect("192.168.33.52","root","","mysql");
  if (!$conn) {
 	die("Connection failed");
